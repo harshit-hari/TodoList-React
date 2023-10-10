@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+#todo-box{
+  display: flex;
+  flex-direction: column;
+  background-color: aquamarine;
+  color: black;
+  height: 100vw;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+}
+#todo-box-2{
+  height: 100%;
+  width: 90%;
+}
+
+input{
+  background-color: white;
+  color: black;
+  height: 10%;
+  width: 50%;
+}
+
+button{
+  background-color: green;
+  color: black;
+  margin-left: 10px;
+  height: 10%;
+  width: 30%;
+
+}
